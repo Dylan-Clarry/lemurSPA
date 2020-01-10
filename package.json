@@ -2,7 +2,7 @@
   "name": "lemurspa_1.1",
   "version": "1.0.0",
   "description": "Lemur SPA is a lighweight framework for building simple single page applications",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "ws --spa index.html",
     "build": "webpack --config webpack.config.js"
