@@ -7,7 +7,7 @@ parseUrl = url => {
 }
 
 // router object
-class LemurApp {
+class QspaApp {
 	constructor() {
 		this.routes = {};
 		this.state = {};
@@ -49,7 +49,7 @@ class LemurApp {
 			}
 
 		} else {
-			console.error("Lemur Error: root element div with id 'app' not found");
+			console.error("quickSPA Error: root element div with id 'app' not found");
 		}
 	}
 
@@ -58,4 +58,4 @@ class LemurApp {
 	}
 }
 
-module.exports = { LemurApp };
+module.exports = { QspaApp };
