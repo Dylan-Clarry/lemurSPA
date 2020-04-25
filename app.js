@@ -1,6 +1,10 @@
-const Util = require('./src/util.js');
-//import Util from './src/util.js';
+//const Utilities = require('./src/util.js');
+//import { Utilities } from './src/util.js';
 
+
+parseUrl = url => {
+	console.log("");
+}
 
 // router object
 class LemurApp {
@@ -33,6 +37,7 @@ class LemurApp {
 					let href = currLink.getAttribute('href')
 
 					console.log(href);
+					console.log("yes")
 
 					// rewrite url to a tags href
 					window.history.pushState(
